@@ -1,0 +1,114 @@
+*{
+    margin: 3;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+body{
+/* back ground Image */
+    background-image: url("../assets/pexels-maxyne-barcel-10402282 1.png");
+ 
+    
+    background-attachment: fixed;
+    background-size:cover;
+    
+    /* fo */
+    
+    font-weight: 400;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+/* list Item */
+li{
+    list-style: none;
+    cursor: pointer;
+}
+
+/* ANCHOR TAG */
+a{
+    text-decoration: none;
+    color: rgb(242, 192, 67) ;
+}
+
+/* button */
+button{
+    background-color: rgba(236, 61, 61, 0.785);
+    padding: 4px 10px ;
+    cursor: pointer;
+    color: white;
+    border-radius: 1px solid  rgb(218, 56, 16);
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid rgb(236, 61, 61, 0.785);
+}
+
+/* header */
+header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* logo */
+header.logo{
+    font-weight: 700px;
+    font-size: 40px;
+}
+
+/* header ul */
+header ul{
+    display: flex;
+    gap: 20px;
+    font-weight:700;
+    
+
+}
+/* Order button */
+.order-button{
+    padding: px 10px;
+    margin: 10px 2px 2px 500px;
+}
+
+/* Main Section */
+.main-section{
+    
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    font-family: "Mochiy Pop One", sans-serif;
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color:rgb(242, 192, 67);
+    /* Menu button */
+    .menu-button{
+        display: flex;
+        position:relative;
+        left: 130px;
+        
+        
+    }
+}
+/* footer */
+footer{
+    display: flex;
+    align-items: end;
+
+}
+.bottom-right-img{
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+
+}
+img{
+    width: 100px;
+    height: auto;
+    
+}
